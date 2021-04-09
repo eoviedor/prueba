@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RAILE FENCE.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>RAILE FENCE</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">325</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">RAILE FENCE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7033135216459,12.5797118853241,0 -81.703250052691,12.5798414248681,0 -81.7032165259233,12.5799286535154,0 -81.7032079504888,12.5799583514892,0 -81.7032180832373,12.580021407051,0 -81.7032500795713,12.5801550974957,0 -81.7032562759907,12.5802114827188,0 -81.7032600873881,12.5803529948555,0 -81.70326391685509,12.5804973758389,0 -81.70325406236201,12.5806332330398,0 -81.70323141712041,12.5807244340004,0 -81.7031596476214,12.5809851142861,0 -81.7031372960577,12.5809835937413,0 -81.70309511924491,12.5809807245083,0 -81.7030075214976,12.5809848425796,0 -81.70279336105131,12.5809897289901,0 -81.70276780512199,12.580989884134,0 -81.70275046699091,12.5809421734064,0 -81.70274394602581,12.5808728798186,0 -81.70273446187279,12.5807416559746,0 -81.70273733485141,12.5806145481104,0 -81.7027412086079,12.5804431636466,0 -81.7027411798486,12.5802064746998,0 -81.7027499999966,12.58004,0 -81.7027591784333,12.5800278852617,0 -81.7028181451371,12.579950054309,0 -81.70286994095351,12.5798263746456,0 -81.70294047734809,12.5796638502623,0 -81.7029899372717,12.5795736510177,0 -81.70300668926041,12.5795431006786,0 -81.7030167862634,12.5795199983212,0 -81.7030449725588,12.5795378075114,0 -81.7030909221366,12.57956813077,0 -81.703190657897,12.5796363802345,0 -81.70329720256829,12.5797036319915,0 -81.7033135216459,12.5797118853241,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

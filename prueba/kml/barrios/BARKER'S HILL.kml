@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BARKER&apos;S HILL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>BARKER&apos;S HILL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">419</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">BARKER&apos;S HILL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71708799929689,12.5660931230169,0 -81.7170452528955,12.566260739534,0 -81.7169785630665,12.5664906629539,0 -81.7164488151634,12.5663977035598,0 -81.7165000644374,12.5662048761325,0 -81.71653563421729,12.5660569079991,0 -81.7165924894385,12.5658112656018,0 -81.7165922985306,12.5657811428584,0 -81.7164708620283,12.5657445891985,0 -81.71636120747939,12.5657237426312,0 -81.7162924851815,12.5657098181084,0 -81.7162177665339,12.5656935525057,0 -81.7161521013964,12.565661426208,0 -81.7160729696071,12.5656179195056,0 -81.715932374397,12.565553749575,0 -81.71580258460899,12.5655048145554,0 -81.71572844759029,12.5654813598238,0 -81.71569438560731,12.5654751293545,0 -81.7156768085738,12.5654719142383,0 -81.71566201339201,12.5654123931799,0 -81.71567871254091,12.5652822322694,0 -81.7156845986284,12.5649819133631,0 -81.71560694616601,12.5647107944468,0 -81.71554310445021,12.5644682805429,0 -81.7155072230719,12.564336528313,0 -81.715493146081,12.5642658470085,0 -81.71548315585051,12.5641549118627,0 -81.7157899999965,12.56422,0 -81.71599999999999,12.56419,0 -81.7162199999965,12.56416,0 -81.7167799999965,12.56411,0 -81.7172099999964,12.56407,0 -81.71723999999639,12.56469,0 -81.71724676383251,12.5650306427948,0 -81.7174039875961,12.5654342166036,0 -81.71740515177621,12.5656178218251,0 -81.71727190091779,12.5657907736583,0 -81.71708799929689,12.5660931230169,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TABLITAS.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>TABLITAS</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">342</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">TABLITAS</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71176649601099,12.5844976469933,0 -81.71170135151149,12.5845389491091,0 -81.7116489149865,12.5845607863659,0 -81.7115688452127,12.5846007232394,0 -81.7115164812752,12.584634035817,0 -81.7114657728213,12.5846981794582,0 -81.71143409886299,12.5847700964951,0 -81.7114228253235,12.5848327938325,0 -81.71129999999999,12.5849,0 -81.71101999999649,12.58507,0 -81.710925172194,12.5850820929297,0 -81.71085724152,12.5851171739554,0 -81.7106184295826,12.5852656648518,0 -81.71060266183341,12.5852324203518,0 -81.71057772543919,12.5851798447875,0 -81.7104901870694,12.585001069661,0 -81.7104320600257,12.584854390717,0 -81.7104046441101,12.5848039576428,0 -81.7107199999965,12.58462,0 -81.7108862840463,12.5845217412704,0 -81.7109462463238,12.5844866289773,0 -81.71155670527681,12.5841291594355,0 -81.7115699999965,12.58415,0 -81.71176649601099,12.5844976469933,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

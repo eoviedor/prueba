@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>COURTH HOUSE.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>COURTH HOUSE</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">434</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">COURTH HOUSE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7147099999965,12.55891,0 -81.71660999999651,12.55845,0 -81.7166899999965,12.55872,0 -81.7167,12.55882,0 -81.71671887676681,12.5588514612869,0 -81.71667270495421,12.5588581442375,0 -81.7165881039945,12.5588730060834,0 -81.7165054681308,12.5588907248384,0 -81.7163861624132,12.5589114768578,0 -81.7162599955451,12.5589344822345,0 -81.71614841706879,12.5589552467002,0 -81.71606999999641,12.55897,0 -81.7160704437818,12.5589828698146,0 -81.7160728401275,12.5590523639888,0 -81.7160799999965,12.55926,0 -81.7156499999965,12.55941,0 -81.7148899999965,12.55953,0 -81.7137299999965,12.55954,0 -81.7137799999965,12.55925,0 -81.71378999999649,12.55919,0 -81.71387999999649,12.55888,0 -81.7147099999965,12.55891,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

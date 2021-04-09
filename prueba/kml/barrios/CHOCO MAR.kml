@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CHOCO MAR.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>CHOCO MAR</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">407</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">CHOCO MAR</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.70737083724519,12.5825031552365,0 -81.7073549674607,12.5825361171129,0 -81.70735818914061,12.5827414172189,0 -81.7073158583739,12.5828879373481,0 -81.7072901291627,12.5828930751615,0 -81.7072427176921,12.5829012534406,0 -81.7072271770942,12.5829032191014,0 -81.70721528191039,12.5829047236694,0 -81.70718438459269,12.5829060494834,0 -81.7071726927698,12.5829046861876,0 -81.706929994696,12.5828616948596,0 -81.7067515926326,12.5828247671216,0 -81.7065264387555,12.5827876546085,0 -81.7064799999965,12.58278,0 -81.706470953696,12.5827828420557,0 -81.7065010094822,12.5826147916984,0 -81.70654594939219,12.5824077144725,0 -81.7065490556994,12.5823935500335,0 -81.7066370384682,12.5819923572581,0 -81.7066599999966,12.582,0 -81.7067415749342,12.5820392847315,0 -81.70693966032729,12.5821098029348,0 -81.70714254724911,12.5821697722545,0 -81.7072644596691,12.5822034575072,0 -81.7072769111016,12.5822054444985,0 -81.7073395023598,12.5822154327604,0 -81.7074924601586,12.5822317151711,0 -81.7074858504192,12.5822642702124,0 -81.70737083724519,12.5825031552365,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

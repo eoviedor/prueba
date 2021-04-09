@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZARABANDA.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>ZARABANDA</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">343</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">ZARABANDA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.714,12.58401,0 -81.7139384667132,12.5840547514896,0 -81.7138899999965,12.58409,0 -81.7138770196737,12.5841019818517,0 -81.7136299999965,12.58433,0 -81.7130399999965,12.58491,0 -81.7128699999965,12.58506,0 -81.7122938875863,12.5853852248218,0 -81.7122309433357,12.585296045466,0 -81.7121700794696,12.5852170430493,0 -81.7121012551699,12.5851160898697,0 -81.71195999999649,12.58484,0 -81.7125699999965,12.58447,0 -81.71350204815209,12.5838432786869,0 -81.7137299999965,12.58369,0 -81.7138614100276,12.5835993580814,0 -81.7140107463281,12.5837865473554,0 -81.7140225834857,12.5838013849161,0 -81.7141258607451,12.583928111077,0 -81.714106228826,12.583940884222,0 -81.714,12.58401,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

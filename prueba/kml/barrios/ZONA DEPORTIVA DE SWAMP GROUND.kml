@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONA DEPORTIVA DE SWAMP GROUND.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>ZONA DEPORTIVA DE SWAMP GROUND</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">327</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">ZONA DEPORTIVA DE SWAMP GROUND</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.70010958437059,12.5863388140775,0 -81.7000951202847,12.5863449941508,0 -81.70003014529711,12.586289268614,0 -81.6999792907578,12.586253236755,0 -81.6998520403035,12.5861449876589,0 -81.6996688993833,12.5859739601075,0 -81.6994867863481,12.5858115330572,0 -81.69940560686391,12.5857527331555,0 -81.6993459842973,12.585715797968,0 -81.6992659045837,12.585677074089,0 -81.69918102306541,12.5856488988088,0 -81.6989428994096,12.5855594910974,0 -81.6988056685657,12.5855175563481,0 -81.6987724007743,12.5855049689328,0 -81.6981283986014,12.5852793522796,0 -81.6977844203753,12.5851552005126,0 -81.6976585336655,12.5850954431469,0 -81.697668514455,12.5850767948408,0 -81.6977596722315,12.5849828270938,0 -81.69783449685571,12.5849056959059,0 -81.69829023146571,12.5842985414111,0 -81.6986628246259,12.5837421740343,0 -81.6987069251077,12.5836763216879,0 -81.6987688342042,12.583626179361,0 -81.6988785639081,12.5836585165561,0 -81.6990641278678,12.5837506337631,0 -81.69963533394861,12.5840125517425,0 -81.70020676640959,12.5843103290088,0 -81.70059999999999,12.58454,0 -81.7008399999966,12.58476,0 -81.70152999999659,12.58568,0 -81.70154335117419,12.5857099704853,0 -81.7015131184346,12.5857226548854,0 -81.70128966450569,12.5858164067219,0 -81.7012542456241,12.5858365093151,0 -81.7011941169654,12.5858706363488,0 -81.70115999999661,12.58589,0 -81.7002219038899,12.5862908232559,0 -81.7001173650479,12.5863354896254,0 -81.70010958437059,12.5863388140775,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

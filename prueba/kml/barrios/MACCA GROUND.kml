@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MACCA GROUND.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>MACCA GROUND</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">411</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">MACCA GROUND</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.6968921692097,12.5859498466502,0 -81.6957342563598,12.58574654906,0 -81.69560336624269,12.5856108143001,0 -81.6954882065629,12.585489579418,0 -81.6954194717664,12.5853967535034,0 -81.6953898000192,12.5853228178791,0 -81.6953525568276,12.5852058935036,0 -81.69532751336131,12.5850936769869,0 -81.69530980171341,12.5849861977594,0 -81.6953211476275,12.5848546348231,0 -81.695340169823,12.5847827956476,0 -81.6953809477025,12.5846869169001,0 -81.695431386424,12.5845790257187,0 -81.69550825766029,12.5844165839011,0 -81.6955322450295,12.5843602549456,0 -81.6955425822795,12.584340448707,0 -81.6958499999967,12.58446,0 -81.69632999999671,12.58463,0 -81.69682999999669,12.58481,0 -81.69758999999669,12.58505,0 -81.697668514455,12.5850767948407,0 -81.6976015823013,12.5852018521594,0 -81.6973557646336,12.5855930411341,0 -81.6971486645497,12.5859481335798,0 -81.6970953875437,12.5859914904821,0 -81.6969499999967,12.58596,0 -81.6968921692097,12.5859498466502,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

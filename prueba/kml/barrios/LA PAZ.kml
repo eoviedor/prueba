@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LA PAZ.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>LA PAZ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">415</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">LA PAZ</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.711126018564,12.5714752662488,0 -81.7110884373455,12.5714686588404,0 -81.71093498201969,12.5714416787613,0 -81.71074204998131,12.5714151217934,0 -81.7105022984271,12.5713745053096,0 -81.71038338410671,12.5713522784899,0 -81.71035800012361,12.5713409573955,0 -81.71036361170781,12.5713045831494,0 -81.71041347964329,12.5711847395943,0 -81.7104740441563,12.5710629182049,0 -81.7105250973853,12.5709098052664,0 -81.71055330575091,12.5708185742786,0 -81.7105812865331,12.5707381823533,0 -81.71061960968581,12.5707528835753,0 -81.7107274824486,12.5707803178316,0 -81.7110164041918,12.5708604410766,0 -81.71114999999649,12.57088,0 -81.7111947292145,12.5708953053077,0 -81.7112912161882,12.5709119306472,0 -81.71140442381309,12.5709169781827,0 -81.7114665535228,12.5709273578431,0 -81.7114907614005,12.570945141141,0 -81.711495273691,12.5709659135057,0 -81.71147086605291,12.571032048201,0 -81.7113625692196,12.5712263627538,0 -81.7112481183661,12.5713712254236,0 -81.7111842196564,12.5714275595951,0 -81.711126018564,12.5714752662488,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

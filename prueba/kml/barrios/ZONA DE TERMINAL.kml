@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ZONA DE TERMINAL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>ZONA DE TERMINAL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">328</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">ZONA DE TERMINAL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.70084361050441,12.5868254296974,0 -81.7007,12.58691,0 -81.70068652913309,12.5869170688315,0 -81.70067949603541,12.586909372728,0 -81.70066943943721,12.5868983680992,0 -81.7006383100135,12.5868643041106,0 -81.7006193455048,12.5868464881341,0 -81.7005030299088,12.5867372167742,0 -81.70046200558269,12.5866986620912,0 -81.7003399930468,12.586583994532,0 -81.70030359868559,12.5865522693475,0 -81.70025235428621,12.5865065959954,0 -81.7001863196769,12.586447740313,0 -81.7001400114661,12.5863992487591,0 -81.7000951202847,12.5863449941508,0 -81.7001173650479,12.5863354896254,0 -81.70026138869321,12.586273952548,0 -81.70115999999661,12.58589,0 -81.7012542456241,12.5858365093151,0 -81.70128966450569,12.5858164067218,0 -81.7015713151562,12.5856982379575,0 -81.7017543936438,12.585588345536,0 -81.7021036629576,12.5853925708715,0 -81.7023530542637,12.5852482066684,0 -81.7026548574871,12.585071561587,0 -81.702761683185,12.5850090364964,0 -81.70300183015451,12.5848784749951,0 -81.70304104039261,12.5848562558084,0 -81.7033195541435,12.5846984307212,0 -81.7033537745552,12.5846815577532,0 -81.7033780052756,12.5846696103721,0 -81.7034146175552,12.5846515580404,0 -81.70346679446391,12.5846311119477,0 -81.70346579061621,12.5848582438275,0 -81.7034942162925,12.5851482224727,0 -81.7035054459738,12.5853576796136,0 -81.70344999999659,12.58539,0 -81.703276259394,12.5854829755235,0 -81.7016,12.58638,0 -81.70086942428919,12.5868102282923,0 -81.70084361050441,12.5868254296974,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

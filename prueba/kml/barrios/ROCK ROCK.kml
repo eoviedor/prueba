@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ROCK ROCK.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>ROCK ROCK</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">316</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">ROCK ROCK</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7146299999965,12.58094,0 -81.71411190161361,12.581255493196,0 -81.7140817293278,12.5811953650126,0 -81.7140189927138,12.5810895975829,0 -81.7139402833927,12.5809982724866,0 -81.7138329659294,12.5808863223675,0 -81.7137972735284,12.5808413496053,0 -81.7137253567477,12.5807693884692,0 -81.7137599999965,12.58071,0 -81.7138099999965,12.58049,0 -81.7138899999965,12.58027,0 -81.7141199999965,12.58023,0 -81.71418931543209,12.5802404382249,0 -81.71427999999651,12.58025,0 -81.7143899999965,12.58034,0 -81.71450999999649,12.58041,0 -81.7145199999965,12.58054,0 -81.71454999999651,12.58065,0 -81.7146299999965,12.58094,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

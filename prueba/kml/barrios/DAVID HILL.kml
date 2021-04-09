@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>DAVID HILL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>DAVID HILL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">367</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">DAVID HILL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.70735588892209,12.5776117702446,0 -81.70762630905119,12.5774860819374,0 -81.70778999999661,12.57741,0 -81.70784549969051,12.5775556882212,0 -81.7079778694964,12.5777040678483,0 -81.7082431987249,12.5780039109417,0 -81.7082654720901,12.5780290815647,0 -81.7081699999965,12.57808,0 -81.70796999999661,12.57817,0 -81.7078001650429,12.578186983505,0 -81.7076097036441,12.5785267148851,0 -81.7074478281134,12.5784521599802,0 -81.70747930223141,12.5783920915609,0 -81.70758519224751,12.5781900000432,0 -81.7074599999966,12.57819,0 -81.70727545521289,12.5781694950869,0 -81.7071,12.57815,0 -81.7069099999965,12.5781,0 -81.7068699999965,12.57809,0 -81.7067899999965,12.57801,0 -81.7067499999965,12.57796,0 -81.7067799999966,12.57793,0 -81.7067983728605,12.577911627139,0 -81.7068299999966,12.57788,0 -81.7068599999965,12.57785,0 -81.7068799999965,12.57784,0 -81.70707999999659,12.57774,0 -81.70735588892209,12.5776117702446,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

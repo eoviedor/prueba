@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NATANIA VIII ETAPA.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>NATANIA VIII ETAPA</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">391</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">NATANIA VIII ETAPA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7114171484174,12.5827530580679,0 -81.71136999999651,12.58278,0 -81.71127340837739,12.5828350037388,0 -81.7107256673299,12.5831469118015,0 -81.7106842705625,12.5831704848861,0 -81.7104390002641,12.5828296912662,0 -81.7101605151972,12.582477552901,0 -81.7101330303735,12.5824278554342,0 -81.71011373455541,12.5823929651362,0 -81.7103699999965,12.5822,0 -81.71042999999651,12.58212,0 -81.71073999999651,12.58189,0 -81.7107651853874,12.5818803133173,0 -81.71080237696771,12.581866008867,0 -81.7108090912287,12.5818824671856,0 -81.7108596513043,12.5819488617509,0 -81.711017839715,12.5821379643384,0 -81.71112715377581,12.5822962847981,0 -81.71132744486781,12.5825998881083,0 -81.7114171484174,12.5827530580679,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VILLA CARIBE.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>VILLA CARIBE</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">396</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">VILLA CARIBE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7138899999965,12.58027,0 -81.7137355132467,12.580304884153,0 -81.7135799999965,12.58034,0 -81.71298999999649,12.58045,0 -81.7130599999965,12.58031,0 -81.71302999999649,12.57993,0 -81.71320999999649,12.57994,0 -81.7132299999965,12.57996,0 -81.7132599999965,12.58003,0 -81.7132899999965,12.58005,0 -81.7133299999965,12.58002,0 -81.7134499999965,12.57996,0 -81.71347999999649,12.57995,0 -81.7135099999965,12.57995,0 -81.7135499999965,12.57994,0 -81.7136199999965,12.57996,0 -81.7137599999965,12.57995,0 -81.7139599999965,12.58005,0 -81.7140250802606,12.5800574790614,0 -81.71402355117471,12.5801234741298,0 -81.714019131729,12.580194268439,0 -81.7140252434049,12.5802464794321,0 -81.7140006451822,12.5802507573846,0 -81.7138899999965,12.58027,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

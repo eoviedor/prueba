@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LAURELES.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>LAURELES</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">317</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">LAURELES</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7162699999965,12.58,0 -81.7158799999965,12.58023,0 -81.71543190327159,12.580486055327,0 -81.7153595018395,12.5803545179915,0 -81.7152279480528,12.5801437382029,0 -81.71519825655059,12.580067414677,0 -81.71516992342011,12.5800547863392,0 -81.7150797118625,12.5800145781855,0 -81.7150845101981,12.5799138813099,0 -81.71510106234329,12.5798372749236,0 -81.7151272893462,12.5797510462189,0 -81.71525558732959,12.5796402853294,0 -81.71518222264589,12.5795857459996,0 -81.7151128619094,12.5793949073578,0 -81.7150553220836,12.5791490083098,0 -81.7151021960607,12.5788642180957,0 -81.7156738802809,12.5789596113371,0 -81.7156244871472,12.5791656094048,0 -81.7159,12.57958,0 -81.7162699999965,12.58,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

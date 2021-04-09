@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VILLA MODELIA.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>VILLA MODELIA</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">436</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">VILLA MODELIA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7197799999964,12.57098,0 -81.7188599999964,12.57175,0 -81.71901999999641,12.57193,0 -81.7187,12.57221,0 -81.7182,12.57163,0 -81.71861999999651,12.57147,0 -81.7187,12.57155,0 -81.7187699999964,12.57165,0 -81.7193199999965,12.57119,0 -81.7196741994312,12.5708554783216,0 -81.7196799999964,12.57085,0 -81.7196932618147,12.570830630878,0 -81.7197422607569,12.5708909716095,0 -81.7197524274697,12.5709034916071,0 -81.71975554054001,12.5709083327864,0 -81.7197564692556,12.5709097770451,0 -81.7197584301923,12.570912826525,0 -81.7197776974465,12.5709427892957,0 -81.7197939552947,12.5709680720907,0 -81.7197799999964,12.57098,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

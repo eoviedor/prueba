@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JHON THYME HILL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>JHON THYME HILL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">351</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">JHON THYME HILL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71095319142159,12.5758806386566,0 -81.71098452927551,12.5759075782042,0 -81.7112199999965,12.57611,0 -81.7111566505874,12.5764738693694,0 -81.71098178365619,12.5767259690483,0 -81.7108573134074,12.5767685670655,0 -81.7107264373829,12.5767603997837,0 -81.7103,12.57663,0 -81.71018924461779,12.5765498132783,0 -81.7101175273212,12.5764978900125,0 -81.71006618544079,12.5764616238788,0 -81.71015060580579,12.5763594049596,0 -81.7104172900374,12.5760393256264,0 -81.7105823506798,12.575814541112,0 -81.7106088116972,12.575768516585,0 -81.71067957935981,12.5756454279554,0 -81.7107545824928,12.5755975096091,0 -81.71081661625659,12.5757190265471,0 -81.7108568394691,12.5757675533868,0 -81.7108796091857,12.5758038377375,0 -81.710898067111,12.575833251086,0 -81.71095319142159,12.5758806386566,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

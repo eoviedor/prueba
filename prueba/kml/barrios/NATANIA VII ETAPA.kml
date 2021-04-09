@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NATANIA VII ETAPA.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>NATANIA VII ETAPA</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">400</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">NATANIA VII ETAPA</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7108699999965,12.58184,0 -81.71073999999651,12.58189,0 -81.71042999999651,12.58212,0 -81.7103699999965,12.5822,0 -81.71011373455541,12.5823929651362,0 -81.7099735895043,12.582234615107,0 -81.7099199999965,12.58215,0 -81.7097799999965,12.58203,0 -81.70961201112721,12.5819348063806,0 -81.7094937276576,12.5818872162242,0 -81.7094987754932,12.5818706394655,0 -81.7095132700457,12.5818230403031,0 -81.7095195197125,12.5818025168019,0 -81.7095309260629,12.5817650590781,0 -81.7095554345841,12.5817147030409,0 -81.7095661987141,12.581706274837,0 -81.70956655184069,12.5817059983425,0 -81.7095782014534,12.5816968768135,0 -81.7096339076093,12.5816532594419,0 -81.70979745225451,12.5815346353786,0 -81.7098319278233,12.5815099018856,0 -81.7099086302819,12.5814548739092,0 -81.7099575694407,12.5814183383061,0 -81.71014279999829,12.5812800539898,0 -81.71029178917161,12.5811691689709,0 -81.71034464483979,12.5811311536747,0 -81.71042505238999,12.5810733222442,0 -81.7104749183157,12.5811326284708,0 -81.71077978033939,12.5816146647322,0 -81.71085646769509,12.5817327800508,0 -81.7108699999965,12.58184,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

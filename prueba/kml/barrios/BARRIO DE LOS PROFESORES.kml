@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BARRIO DE LOS PROFESORES.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>BARRIO DE LOS PROFESORES</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">280</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">BARRIO DE LOS PROFESORES</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71108095767811,12.5808930140123,0 -81.7111700926522,12.5811320272751,0 -81.7112539671412,12.5814628789167,0 -81.7112853600333,12.5815774452442,0 -81.7112405594884,12.5816159678905,0 -81.7112382087635,12.5816291315801,0 -81.7112499474391,12.5816571517227,0 -81.7112674005504,12.5817227919292,0 -81.711077598339,12.581782309471,0 -81.7110346118138,12.5817968791881,0 -81.7108793522484,12.5818516121204,0 -81.7108699999965,12.58184,0 -81.7108660002838,12.5818083092487,0 -81.71085646769509,12.5817327800508,0 -81.71077978033939,12.5816146647322,0 -81.7104749183157,12.5811326284708,0 -81.7104543050494,12.5811081128365,0 -81.71042505238999,12.5810733222442,0 -81.71069188787649,12.5808713738248,0 -81.71106366133201,12.5808028715163,0 -81.71108095767811,12.5808930140123,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>HELL GATE.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>HELL GATE</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">299</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">HELL GATE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.6943894754603,12.5812555460198,0 -81.6944399999967,12.58124,0 -81.6945836546749,12.5812315791618,0 -81.6948640171609,12.5812260602682,0 -81.69492519409459,12.5812264585826,0 -81.6954735160072,12.5812300280042,0 -81.69592999999669,12.58123,0 -81.6959780248729,12.5811952891193,0 -81.6960203877092,12.5812763754567,0 -81.6961040769357,12.5814252948766,0 -81.69616063367209,12.5815169989634,0 -81.6963093195574,12.5817384847264,0 -81.6964002584191,12.5818789923534,0 -81.6965092041375,12.5819905655569,0 -81.696532543974,12.5820144682691,0 -81.6966333928206,12.5821278987081,0 -81.6966201870856,12.5821535443421,0 -81.6965248404293,12.5823387080977,0 -81.69626301965459,12.5828949584045,0 -81.6961906589742,12.5830983075383,0 -81.6961299999967,12.58307,0 -81.69597090702879,12.5830338429002,0 -81.69480999999671,12.58277,0 -81.6944299999967,12.58266,0 -81.6940399999967,12.58255,0 -81.6934899999967,12.58242,0 -81.6932859091671,12.5823558572373,0 -81.6932261468104,12.582337074766,0 -81.6932730491467,12.5822600092058,0 -81.69349379023031,12.5820616741173,0 -81.6939005222159,12.5817130294925,0 -81.6941132942587,12.5814860524109,0 -81.69436721157579,12.5812623964462,0 -81.6943894754603,12.5812555460198,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

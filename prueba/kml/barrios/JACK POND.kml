@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JACK POND.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>JACK POND</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">395</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">JACK POND</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7178799999965,12.55445,0 -81.7175354516563,12.5544978539462,0 -81.7174760960721,12.5544980043998,0 -81.7170799999964,12.55448,0 -81.7168099999964,12.55315,0 -81.7172065444207,12.553124688708,0 -81.71720110988031,12.5530840358522,0 -81.7171037214345,12.5525012787619,0 -81.71696917099889,12.5518147493473,0 -81.7168970962031,12.5513860432049,0 -81.7167925903825,12.5508320187291,0 -81.7167413017384,12.5506151727393,0 -81.7171517336689,12.5505284569544,0 -81.7173250893769,12.5504966627702,0 -81.717332149176,12.5505336483599,0 -81.7179899999965,12.55398,0 -81.7180299999964,12.55444,0 -81.7179399999964,12.55444,0 -81.7178799999965,12.55445,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

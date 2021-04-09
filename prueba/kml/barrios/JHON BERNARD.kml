@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>JHON BERNARD.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>JHON BERNARD</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">352</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">JHON BERNARD</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71205917023831,12.5758211339658,0 -81.7118855361383,12.5758854395233,0 -81.7118819067193,12.5758867836807,0 -81.7115879029332,12.5759956679468,0 -81.7112199999965,12.57611,0 -81.7111442989729,12.5760449238729,0 -81.7110086848046,12.5759283434685,0 -81.71095319142159,12.5758806386566,0 -81.710898067111,12.575833251086,0 -81.7108568394691,12.5757675533868,0 -81.71081661625659,12.5757190265471,0 -81.7107545824929,12.5755975096091,0 -81.7107840568861,12.5755786788632,0 -81.71087735163221,12.5755135585531,0 -81.71087241834159,12.5755008823627,0 -81.7108649890976,12.5754817927664,0 -81.7108020100592,12.5753809946693,0 -81.7106086054894,12.5750892516578,0 -81.7106399999965,12.57508,0 -81.71071632342689,12.5750247313685,0 -81.71092999999649,12.57487,0 -81.71100999999651,12.57479,0 -81.7110945676437,12.5747260029537,0 -81.7113582496152,12.5750781376335,0 -81.7113606860884,12.5750813914209,0 -81.7114034882151,12.5751528540388,0 -81.71142635865689,12.5751900108546,0 -81.71149262538989,12.575277109525,0 -81.7115542935865,12.5753298088459,0 -81.71162327929039,12.5753874075897,0 -81.7116750785234,12.5754389497189,0 -81.71205917023831,12.5758211339658,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

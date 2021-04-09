@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>COCAL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>COCAL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">295</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">COCAL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7002513511931,12.5836724867228,0 -81.7002417526995,12.5836832370264,0 -81.6998854805536,12.5835110221695,0 -81.699738627397,12.5834384406255,0 -81.6996821883105,12.5833090360918,0 -81.6996648805472,12.5832661065435,0 -81.6994892441904,12.583074038159,0 -81.6996479136549,12.5828902131097,0 -81.699870032123,12.5826019707721,0 -81.6999964643078,12.5823927726323,0 -81.7000370411801,12.5823256329582,0 -81.7000602618202,12.5822977836757,0 -81.7001580103161,12.5823983220967,0 -81.70033755685,12.5825710210556,0 -81.70050219768341,12.5827421605853,0 -81.7006430854692,12.5828517613501,0 -81.70066515013281,12.5828667659994,0 -81.700453584709,12.5832147847952,0 -81.70033961842191,12.5834772684981,0 -81.7002513511931,12.5836724867228,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>DURNA POND.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>DURNA POND</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">357</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">DURNA POND</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71469241028571,12.520548734234,0 -81.7146678396216,12.5206912837098,0 -81.7144205728472,12.5219981636241,0 -81.7139308753232,12.5234450464775,0 -81.71383999999649,12.52357,0 -81.7136399999965,12.52384,0 -81.7134099999965,12.52371,0 -81.7132046416731,12.5236696102274,0 -81.7132395175714,12.52355175024,0 -81.7132985380173,12.5233553173652,0 -81.7133575556774,12.5230357886224,0 -81.7134353519106,12.5226691172819,0 -81.7135147677686,12.5223513818664,0 -81.7135703746537,12.5221070808205,0 -81.7136433591175,12.5218424223006,0 -81.71371634340809,12.5215947297556,0 -81.7137371938995,12.5214284714607,0 -81.7137371905692,12.5212791789032,0 -81.71372676030229,12.5211366727722,0 -81.7137198086472,12.5211231009074,0 -81.71370749998751,12.5209459256097,0 -81.713705901324,12.5209229138339,0 -81.7137058979971,12.5207804075966,0 -81.71370589775761,12.5207702285804,0 -81.71370887558631,12.5207198201966,0 -81.7137163205819,12.5205937920671,0 -81.7137179764743,12.5205602329144,0 -81.7141747049513,12.5205576233425,0 -81.7143882397414,12.520551443854,0 -81.71442578700361,12.5205503572554,0 -81.7145834658734,12.5205493974455,0 -81.71469241028571,12.520548734234,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

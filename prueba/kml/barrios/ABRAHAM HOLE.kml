@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ABRAHAM HOLE.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>ABRAHAM HOLE</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">336</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">ABRAHAM HOLE</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7034146175553,12.5846515580404,0 -81.7033195541435,12.5846984307212,0 -81.70300183015451,12.5848784749951,0 -81.702761683185,12.5850090364963,0 -81.7023530542637,12.5852482066684,0 -81.7023220903943,12.5852065282164,0 -81.7023209815947,12.5851683080316,0 -81.70232026736861,12.5851436887282,0 -81.7023441638423,12.5849957922844,0 -81.70240254030701,12.5847573143154,0 -81.7024805684988,12.5844536690039,0 -81.7025051768448,12.5843579059505,0 -81.70259019488741,12.583982990689,0 -81.7026032244564,12.5839255324107,0 -81.7026500072779,12.5837383828985,0 -81.7026886973445,12.5835836074009,0 -81.7027355078617,12.5833638478625,0 -81.7027366793492,12.5833179374143,0 -81.7027356967542,12.583316508901,0 -81.7027013059362,12.5832665109335,0 -81.7027464233805,12.5832418508527,0 -81.7028351256704,12.5831810641435,0 -81.7030532483858,12.5830319882824,0 -81.7031899999966,12.58292,0 -81.7032261176239,12.5828903149639,0 -81.7033493140477,12.5831645073654,0 -81.7033572030648,12.5831820655491,0 -81.70343730826529,12.5833795370579,0 -81.70347061308919,12.5834400929098,0 -81.7035162280973,12.5835230314563,0 -81.7034942762787,12.5835837755704,0 -81.7034973725077,12.5836889518674,0 -81.70347720288279,12.5843513253824,0 -81.70346679446391,12.5846311119477,0 -81.7034146175553,12.5846515580404,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

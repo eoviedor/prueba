@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BOB GROUND.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>BOB GROUND</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">432</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">BOB GROUND</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7093740644914,12.5895358246041,0 -81.7093619762706,12.5895375904048,0 -81.7093496923887,12.5895393847863,0 -81.709319792793,12.5895437524002,0 -81.7093136703553,12.5895509489709,0 -81.708815873913,12.5901360781866,0 -81.7086826305342,12.5900257371648,0 -81.7086034071277,12.5899688411797,0 -81.7085389960808,12.5899448477873,0 -81.7084041389285,12.5899047873523,0 -81.7076959063789,12.5897250126578,0 -81.7075251960258,12.5896734553198,0 -81.70758486021271,12.5894854146062,0 -81.7077152124766,12.5891121213339,0 -81.7077258298691,12.589067362438,0 -81.7079064191537,12.5891415720198,0 -81.70805538958309,12.5892195603483,0 -81.70810999999659,12.58926,0 -81.7081799999966,12.58921,0 -81.70832999999659,12.58911,0 -81.7084899999966,12.58888,0 -81.7085399999966,12.58876,0 -81.70866230959101,12.5886721014838,0 -81.70867641511509,12.5886808082572,0 -81.7087635803625,12.5887346118304,0 -81.7089575195352,12.588856658812,0 -81.70897692209709,12.5888688689353,0 -81.7092006181705,12.5890238625783,0 -81.7092600899764,12.5890642319165,0 -81.7094477622027,12.5891916232526,0 -81.709488884108,12.5892279515249,0 -81.7094919590407,12.5892523188317,0 -81.70948576635691,12.5892684315033,0 -81.70947759102469,12.5892897028014,0 -81.7094538665599,12.5893486609545,0 -81.70941354720721,12.5894392787598,0 -81.7094085993897,12.589452414455,0 -81.709397029408,12.5894831309739,0 -81.7094001179411,12.5895096499105,0 -81.7094050241768,12.5895184678845,0 -81.70941562879359,12.5895375275526,0 -81.7093740644914,12.5895358246041,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

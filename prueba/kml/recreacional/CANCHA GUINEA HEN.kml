@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CANCHA GUINEA HEN.kml</name>
+	<Schema name="recreacional" id="recreacional">
+		<SimpleField type="float" name="ID"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="int" name="TIPO"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>CANCHA GUINEA HEN</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#recreacional">
+				<SimpleData name="ID">0</SimpleData>
+				<SimpleData name="NOMBRE">CANCHA GUINEA HEN</SimpleData>
+				<SimpleData name="TIPO">2</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7091772132913,12.5820128149441,0 -81.70908038086969,12.5818325762504,0 -81.7090733388237,12.5817983031566,0 -81.70907332457639,12.5817691857228,0 -81.7090873517412,12.5817417936636,0 -81.70920659613181,12.581676786982,0 -81.7092276432406,12.5816750776357,0 -81.7093893858859,12.5817965984447,0 -81.7094615844283,12.5818754473853,0 -81.70947042224741,12.5818994576655,0 -81.7094705271827,12.5819286283337,0 -81.7091772132913,12.5820128149441,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

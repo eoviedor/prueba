@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CANCHA.kml</name>
+	<Schema name="recreacional" id="recreacional">
+		<SimpleField type="float" name="ID"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="int" name="TIPO"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>CANCHA</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#recreacional">
+				<SimpleData name="ID">0</SimpleData>
+				<SimpleData name="NOMBRE">CANCHA</SimpleData>
+				<SimpleData name="TIPO">2</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7297918261648,12.5466038839026,0 -81.7292885452834,12.5462673001656,0 -81.7295322297048,12.5459207637001,0 -81.73004062555511,12.5462657310667,0 -81.7297918261648,12.5466038839026,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

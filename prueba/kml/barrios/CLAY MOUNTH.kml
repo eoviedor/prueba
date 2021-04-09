@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CLAY MOUNTH.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>CLAY MOUNTH</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">365</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">CLAY MOUNTH</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.71651999999639,12.54232,0 -81.7167599999965,12.54232,0 -81.71713999999641,12.54233,0 -81.7173399999965,12.54248,0 -81.7175199999965,12.54265,0 -81.7176099999965,12.54302,0 -81.71758999999651,12.54322,0 -81.7174399999964,12.54346,0 -81.71729999999999,12.54379,0 -81.71732352729759,12.5450401171111,0 -81.7174,12.54567,0 -81.71714999999639,12.5457,0 -81.7170210694311,12.5457151505987,0 -81.71687999999639,12.54573,0 -81.71683269134159,12.545735256553,0 -81.71642999999639,12.54578,0 -81.7163599999964,12.54547,0 -81.7163499999965,12.54497,0 -81.7164199999965,12.54423,0 -81.71633999999641,12.54395,0 -81.7161399999964,12.54357,0 -81.71599999999999,12.54321,0 -81.71599999999999,12.54296,0 -81.7157,12.54217,0 -81.7159714555014,12.5420478451107,0 -81.7161,12.54199,0 -81.71612338785209,12.5419726299114,0 -81.7162480486289,12.5419096757554,0 -81.71628761380219,12.5420088911707,0 -81.71638600613571,12.5423299255051,0 -81.71651999999639,12.54232,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

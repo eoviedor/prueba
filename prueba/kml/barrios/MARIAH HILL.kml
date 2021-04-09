@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MARIAH HILL.kml</name>
+	<Schema name="barrios" id="barrios">
+		<SimpleField type="int" name="CIG"></SimpleField>
+		<SimpleField type="string" name="CODCIUDAD"></SimpleField>
+		<SimpleField type="int" name="LOCALIDAD"></SimpleField>
+		<SimpleField type="int" name="MUNICIPIO"></SimpleField>
+		<SimpleField type="string" name="NOMBRE"></SimpleField>
+		<SimpleField type="string" name="arreglos"></SimpleField>
+	</Schema>
+	<Placemark>
+		<name>MARIAH HILL</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#barrios">
+				<SimpleData name="CIG">393</SimpleData>
+				<SimpleData name="LOCALIDAD">266</SimpleData>
+				<SimpleData name="MUNICIPIO">265</SimpleData>
+				<SimpleData name="NOMBRE">MARIAH HILL</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.7172065444207,12.553124688708,0 -81.7168099999964,12.55315,0 -81.7168099999964,12.55298,0 -81.7167,12.55262,0 -81.7164399999965,12.55126,0 -81.71637999999641,12.55081,0 -81.7165954265724,12.550773219934,0 -81.7167409717145,12.5507483707165,0 -81.7167715702287,12.5507431465596,0 -81.7167925903825,12.5508320187291,0 -81.71686385795741,12.5512098351765,0 -81.7168970962031,12.5513860432049,0 -81.7169340796673,12.5516060237983,0 -81.71696917099889,12.5518147493473,0 -81.7170792715329,12.5523765260869,0 -81.7171037214345,12.5525012787619,0 -81.7171038436686,12.5525020101937,0 -81.71720110988031,12.5530840358522,0 -81.7172065444207,12.553124688708,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
